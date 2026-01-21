@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd packages/react-frontend && npm run dev"
+    "start": "cd packages/react-frontend && npm run dev",
+    "backend": "npm --prefix packages/express-backend start",
+    "backend:dev": "npm --prefix packages/express-backend run dev"
   },
   "author": "",
   "license": "ISC",
